@@ -1,0 +1,49 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Horizontal line */
+.collapsible-link::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+/* Vertical line */
+.collapsible-link::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+.collapsible-link[aria-expanded='true']::after {
+  transform: rotate(90deg) translateX(-1px);
+}
+
+.collapsible-link[aria-expanded='true']::before {
+  transform: rotate(180deg);
+}
+
