@@ -171,8 +171,8 @@ DEFAULT_FROM_EMAIL = 'davidalejandrodand@gmail.com'
 
 
 # STRIPE
-STRIPE_TEST_PUBLISHABLE_KEY =  'pk_test_TnZPzGcxxBaCl3NKTrkMnfcS00CbfY0nuu'
-STRIPE_TEST_SECRET_KEY = 'sk_test_8V9NmsY3GovdJIi0nU0YBPJ700r5d99F9L'
+STRIPE_TEST_PUBLISHABLE_KEY =  ''
+STRIPE_TEST_SECRET_KEY = ''
 
 # EMAIL BACKEND
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
@@ -183,7 +183,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # EMAIL_HOST_USER = 'apikey'
 
-# EMAIL_HOST_PASSWORD = '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'
+# EMAIL_HOST_PASSWORD = ''
 
 # EMAIL_PORT = 587
 
